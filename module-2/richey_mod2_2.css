@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+p {font-size: 16px; font-weight: 400; line-height: 1.4em}
+h1 {font-weight: 700; text-align: center; text-transform: uppercase}
+h2 {font-weight: 500; padding-top: 15px; text-align: left}
+address {text-align: center}
+address a {font-size: 1.25em; text-color: #4F3674; text-decoration: none; font-weight: 600}
+address a:hover {background-color: #D6A800; text-decoration: underline}
+address a:visited {text-decoration: underline}
+span.sentence {font-style:italic}
+p.intro {text-indent: 2em}

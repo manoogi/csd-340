@@ -1,4 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
-#container {}
+#container {margin-top: 50px; margin-left: 100px; margin-right: 100px}
+h1, h2, h3, h4 {background-color: #B9E7D7; color: #1E1E3E; border: 1px; padding: 10px}
+a {color: black; text-decoration: none}
+anchor.hover {color: white}
+anchor.visited {color: #326062}

@@ -56,7 +56,10 @@ footer {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
+	padding-right: 10px;
 	padding: 5px;
+	float: right;
+	text-align: right;
 }
 footer a {
 	text-decoration: none;

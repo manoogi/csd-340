@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+	background-color:#647E3F;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+h1 {
+	font-weight: 400;
+}
+#navbar {
+	overflow: hidden;
+	background-color:#647E3F;
+	border-bottom: 15px solid #394E38;
+}
+#navbar a {
+	color: #CDDEB4;
+	display: block;
+	float: left;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+#navbar a:hover {
+	background-color: #99A983;
+	color: #647E3F;
+}
+#container {
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 10%;
+}
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width: 50%;
+}
+.card-title {
+	text-align: center;
+	font-size: 2em;
+	color: #647E3F;
+	weight: 400;
+}
+.card-content {
+	padding: 2px 16px;
+}
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+footer {
+	align-content: right;
+	background-color: #647E3F;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 5px;
+}
+footer a {
+	text-decoration: none;
+	color: white;
+}
+footer a:hover {
+	text-decoration: underline;
+}

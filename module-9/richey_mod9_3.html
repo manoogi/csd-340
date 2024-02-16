@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang='en'>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="An introduction to myself" />
+<meta http-equiv="author" content="Michael Richey" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta name="keywords" content="college, web, design" />
+<title>CSD 340 Development with HTML and CSS</title>
+<link href="richey_mod2_2.css" rel="stylesheet" type="text/css">
+	<script>
+		var firstVariableValue = "Uinta-Wasatch-Cache National Forest";
+		var secondVariableValue = "Golden Gate Bridge";
+		var thirdVariableValue = "The Monterey Aquarium";
+		var fourthVariableValue = "Twin Falls";
+	</script>
+</head>
+
+<body>
+	<div id="container">
+	<h1>Assignment 9.3 - Javascript - Part 1</h1>
+	<h2>Chapter 2</h2>
+	<p class="intro">My road trip to California</p>	
+	<p>Last year for my birthday I took a road trip to California. The weeks prior to that I set up my car to have a sleeping area in the back so that way I wouln't have to worry about hotel booking and prices (As well as the summer heat).</p>
+	<p>On my trip, I stopped in places such as the <span id = "Uinta-Wasatch-Cache National Forest">_______</span>, <span id = "Golden Gate Bridge">_______</span>, <span id = "The Monterey Aquarium">_______</span>, and <span id = "Twin Falls">_______</span>. It was such a great experience.</p>
+	<p>Overall there were very few problems that had occured during my trip, and I hope to do somthing like it again in the future.</p>
+	<p>
+		<button type="button"
+			onclick="document.getElementById('Uinta-Wasatch-Cache National Forest').innerHTML = firstVariableValue">Uinta-Wasatch-Cache National Forest</button>
+		<button type="button"
+			onclick="document.getElementById('Golden Gate Bridge').innerHTML = secondVariableValue">Golden Gate Bridge</button>
+		<button type="button"
+			onclick="document.getElementById('The Monterey Aquarium').innerHTML = thirdVariableValue">The Monterey Aquarium</button>
+		<button type="button"
+			onclick="document.getElementById('Twin Falls').innerHTML = fourthVariableValue">Twin Falls</button>
+	<br />
+	</p>	
+	</div>
+</body>
+</html>

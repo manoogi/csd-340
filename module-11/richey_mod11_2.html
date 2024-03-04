@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang='en'>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="An introduction to myself" />
+		<meta http-equiv="author" content="Michael Richey" />
+		<meta http-equiv="pragma" content="no-cache" />
+		<meta name="keywords" content="college, web, design" />
+		<title>CSD 340 Development with HTML and CSS</title>
+
+   		<script>
+        	var toDoList = [];
+
+        	function add() {
+            	var inputElement = document.getElementById("item");
+            	var newItem = inputElement.value;
+            	toDoList.push(newItem);
+            	inputElement.value = "";
+        	}
+
+        	function del() {
+            	toDoList.pop();
+        	}
+
+        	function disp() {
+				document.getElementById("label").textContent = toDoList.join(", ");
+			}
+    	</script>
+		
+	</head>
+
+	<body>
+		<header>
+			<h1>Assignment 11.2: JavaScript - Part 3</h1>
+		</header>
+    	
+		<p>This is an intereactive To Do List. Type in your first item in the text book, then click Add. Click the Display button to see current items in the list. Click on Delete Last Entry if you'd like to remove the last entry.</p>
+		
+		
+		<input type="text" id="item"/>
+		<input type="button" id = "add" value="Add" onclick = "add()" />
+		<input type="button" id = "delete" value="Delete Last Entry" onclick = "del()" />
+		<input type="button" id = "display" value="Display" onclick = "disp()" />
+		
+		<hr>
+		
+		<label id = "label"></label>
+	</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'
+  'http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd'>
+
+<html xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <script>
+      function displayImage(imageFile){
+        var largerImage = document.getElementById("mainImage");
+        var newNode = document.createElement("img");
+        newNode.id = "mainImage";
+        newNode.src = imageFile;
+        newNode.alt = "Large Image";
+        newNode.className = "mainImage";
+        newNode.style.width = "300px";
+        newNode.style.height = "200px";
+        largerImage.parentNode.replaceChild(newNode, largerImage);}
+    </script>
+	<title>CSD 340 Web Development with HTML and CSS</title>
+  </head>
+
+  <body>
+	<header>
+	<h1>Assignment 10.3: JavaScript - Part 2</h1>
+	</header>
+    <br />
+    <div
+         onmouseover="this.style.color='red';"
+         onmouseout= "this.style.color='black';">
+
+      Run your mouse over bird to animate it.
+      Click on jump rope to animate it.
+      <br />
+
+    </div>
+    <div>
+      <a href=#
+         onmouseover="bird.src='bird1.jpg';"
+         onmouseout= "bird.src='bird2.jpg';"
+      	 width="200"/>
+        <img border = 0 name = "bird" src = "bird1.jpg" width="200"/>
+      </a>
+	  <a href=#
+        onmouseup="jump.src='jump1.jpg';"
+        onmousedown= "jump.src='jump2.jpg';"
+      	width="200"/>
+        <img border = 0 name = "jump" src = "jump1.jpg" width="200"/>
+      </a>
+    </div>
+  </body>
+</html>
